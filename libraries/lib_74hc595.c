@@ -35,7 +35,6 @@ void HC595_Init(uint8_t data_pin, uint8_t clock_pin, uint8_t latch_pin, uint8_t 
     HC595_WriteCascadedBytes(_currentOutputStates, _num_of_sr);
 }
 
-// ... (HC595_WriteByte permanece igual)
 
 // Implementação para múltiplos 74HC595 em cascata (permanece igual)
 void HC595_WriteCascadedBytes(uint8_t *data_array, uint8_t num_of_sr) {
@@ -66,4 +65,5 @@ void HC595_DigitalWrite(uint8_t bitIndex, uint8_t state) {
         HC595_WriteCascadedBytes(_currentOutputStates, _num_of_sr);
     }
 }
+
 
