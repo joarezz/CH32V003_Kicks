@@ -1,3 +1,9 @@
+//JOAREZ DE OLIVEIRA DA FONSECA
+//KICKS TECNOLOGIA -> SE INSCREVAM NO CANAL E NOS AJUDE A CRESCER!!!!!
+//FRAMEWORK PARA A BIBLIOTECA : CH32VFUN
+//12/08/2025
+//https://www.youtube.com/@kickstech
+
 #include "ds18b20.h"
 #include "onewire.h"
 #include "ch32v003fun.h"
@@ -184,4 +190,5 @@ ds18b20_sensor_t ds18b20_get_sensor_status(uint8_t index) {
     memset(&invalid_sensor, 0, sizeof(ds18b20_sensor_t));
     invalid_sensor.failure_count = MAX_FAILURES; 
     return invalid_sensor;
+
 }
