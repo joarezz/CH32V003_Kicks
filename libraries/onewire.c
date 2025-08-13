@@ -1,3 +1,9 @@
+//JOAREZ DE OLIVEIRA DA FONSECA
+//KICKS TECNOLOGIA -> SE INSCREVAM NO CANAL E NOS AJUDE A CRESCER!!!!!
+//FRAMEWORK PARA A BIBLIOTECA : CH32VFUN
+//22/06/2025
+//https://www.youtube.com/@kickstech
+
 #include "onewire.h"
 #include "ch32v003fun.h"
 #include <stdint.h>
@@ -158,4 +164,5 @@ bool OneWire_Search_Next(uint8_t pin, uint8_t *newAddr) {
     }
     
     return true;
+
 }
