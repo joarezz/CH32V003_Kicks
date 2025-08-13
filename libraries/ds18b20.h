@@ -1,3 +1,9 @@
+//JOAREZ DE OLIVEIRA DA FONSECA
+//KICKS TECNOLOGIA -> SE INSCREVAM NO CANAL E NOS AJUDE A CRESCER!!!!!
+//FRAMEWORK PARA A BIBLIOTECA : CH32VFUN
+//22/06/2025
+//https://www.youtube.com/@kickstech
+
 #ifndef DS18B20_H
 #define DS18B20_H
 
@@ -22,5 +28,6 @@ void ds18b20_update_temperatures();
 
 uint8_t ds18b20_get_sensor_count();
 ds18b20_sensor_t ds18b20_get_sensor_status(uint8_t index);
+
 
 #endif
